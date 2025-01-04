@@ -1,0 +1,44 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AAssert_002Ecs_002Fl_003AC_0021_003FUsers_003FNatasel_003FAppData_003FRoaming_003FJetBrains_003FRider2024_002E2_003Fresharper_002Dhost_003FDecompilerCache_003Fdecompiler_003Fc2ee800029e3469d9a4405857186cd1e79e00_003Ff7_003F92ce22fe_003FAssert_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AAssert_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003FAppData_003FRoaming_003FJetBrains_003FRider2024_002E2_003Fresharper_002Dhost_003FSourcesCache_003F46a322d26154b982566e1817203e5452c91223f93b0e392d9c5b4806696fdc1_003FAssert_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AMath_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003FAppData_003FRoaming_003FJetBrains_003FRider2024_002E2_003Fresharper_002Dhost_003FDecompilerCache_003Fdecompiler_003F0da8a94897c945419a9935a75f4e9b6a531020_003Ff8_003F99575b23_003FMath_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003ATestAttribute_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003FAppData_003FRoaming_003FJetBrains_003FRider2024_002E3_003Fresharper_002Dhost_003FSourcesCache_003Fd37afa0a984eb534c5fcfa8bef7a1261e4d9df3c0b94eb668f471de2444ee_003FTestAttribute_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/CodeInspection/PencilsConfiguration/ActualSeverity/@EntryValue">INFO</s:String>
+	
+	
+	
+	
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=d3bc8eb4_002Dc44e_002D4f30_002D891d_002D17476ff71a3f/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="All tests from Tests01_NewMatrices.cs #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Or&gt;&#xD;
+    &lt;ProjectFile&gt;D37200E7-A479-41AE-8823-803CD3775843/d:Matrices Tests Unitaires/f:Tests01_NewMatrices.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;D37200E7-A479-41AE-8823-803CD3775843/d:Matrices Tests Unitaires/f:Tests02_CopyAndModifyMatrices.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;D37200E7-A479-41AE-8823-803CD3775843/d:Matrices Tests Unitaires/f:Tests03_IdentityMatrices.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;D37200E7-A479-41AE-8823-803CD3775843/d:Matrices Tests Unitaires/f:Tests04_ScalarMultiplication.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;D37200E7-A479-41AE-8823-803CD3775843/d:Matrices Tests Unitaires/f:Tests05_MatricesAddAndSubtract.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;D37200E7-A479-41AE-8823-803CD3775843/d:Matrices Tests Unitaires/f:Tests06_MatricesMultiplication.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;D37200E7-A479-41AE-8823-803CD3775843/d:Matrices Tests Unitaires/f:Tests07_TransposeMatrices.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;D37200E7-A479-41AE-8823-803CD3775843/d:Matrices Tests Unitaires/f:Tests08_ElementaryOperations.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;D37200E7-A479-41AE-8823-803CD3775843/d:Matrices Tests Unitaires/f:Tests09_AugmentedMatricesAndSplit.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;D37200E7-A479-41AE-8823-803CD3775843/d:Matrices Tests Unitaires/f:Tests10_RowReduction.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;D37200E7-A479-41AE-8823-803CD3775843/d:Matrices Tests Unitaires/f:Tests11_InvertMatricesUsingRowReduction.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;D37200E7-A479-41AE-8823-803CD3775843/d:Matrices Tests Unitaires/f:Tests12_SubMatrices.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;D37200E7-A479-41AE-8823-803CD3775843/d:Matrices Tests Unitaires/f:Tests13_Determinants.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;D37200E7-A479-41AE-8823-803CD3775843/d:Matrices Tests Unitaires/f:Tests14_AdjugateMatrices.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;D37200E7-A479-41AE-8823-803CD3775843/d:Matrices Tests Unitaires/f:Tests15_InvertMatricesUsingDeterminant.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;D37200E7-A479-41AE-8823-803CD3775843/d:Matrices Tests Unitaires/f:Tests16_TransformationMatrices.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;D37200E7-A479-41AE-8823-803CD3775843/d:Matrices Tests Unitaires/f:Tests17_TransformLocalPosition.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;D37200E7-A479-41AE-8823-803CD3775843/d:Matrices Tests Unitaires/f:Tests18_TransformLocalRotations.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;D37200E7-A479-41AE-8823-803CD3775843/d:Matrices Tests Unitaires/f:Tests19_TransformLocalScale.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;D37200E7-A479-41AE-8823-803CD3775843/d:Matrices Tests Unitaires/f:Tests20_TransformLocalEverything.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;D37200E7-A479-41AE-8823-803CD3775843/d:Matrices Tests Unitaires/f:Tests21_TransformSetParentAndCheckWorldPosition.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;D37200E7-A479-41AE-8823-803CD3775843/d:Matrices Tests Unitaires/f:Tests22_TransformChangeWorldPosition.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;D37200E7-A479-41AE-8823-803CD3775843/d:Matrices Tests Unitaires/f:Tests23_NewQuaternions.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;D37200E7-A479-41AE-8823-803CD3775843/d:Matrices Tests Unitaires/f:Tests24_QuaternionsAngleAxis.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;D37200E7-A479-41AE-8823-803CD3775843/d:Matrices Tests Unitaires/f:Tests25_QuaternionsMultiplication.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;D37200E7-A479-41AE-8823-803CD3775843/d:Matrices Tests Unitaires/f:Tests26_QuaternionsPointRotation.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;D37200E7-A479-41AE-8823-803CD3775843/d:Matrices Tests Unitaires/f:Tests27_QuaternionsMatrix.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;D37200E7-A479-41AE-8823-803CD3775843/d:Matrices Tests Unitaires/f:Tests28_QuaternionsEulerConversions.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;D37200E7-A479-41AE-8823-803CD3775843/d:Matrices Tests Unitaires/f:Tests29_TransformGetLocalRotationAsQuaternion.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;D37200E7-A479-41AE-8823-803CD3775843/d:Matrices Tests Unitaires/f:Tests30_TransformSetLocalRotationAsQuaternion.cs&lt;/ProjectFile&gt;&#xD;
+  &lt;/Or&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

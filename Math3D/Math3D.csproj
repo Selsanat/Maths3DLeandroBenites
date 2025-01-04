@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <Import Project="..\packages\NUnit.3.14.0\build\NUnit.props" Condition="Exists('..\packages\NUnit.3.14.0\build\NUnit.props')" />
+    <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+    <PropertyGroup>
+        <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+        <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+        <ProjectGuid>{D37200E7-A479-41AE-8823-803CD3775843}</ProjectGuid>
+        <ProjectTypeGuids>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+        <OutputType>Library</OutputType>
+        <AppDesignerFolder>Properties</AppDesignerFolder>
+        <RootNamespace>Math3D</RootNamespace>
+        <AssemblyName>Math3D</AssemblyName>
+        <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+        <FileAlignment>512</FileAlignment>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+        <PlatformTarget>AnyCPU</PlatformTarget>
+        <DebugSymbols>true</DebugSymbols>
+        <DebugType>full</DebugType>
+        <Optimize>false</Optimize>
+        <OutputPath>bin\Debug\</OutputPath>
+        <DefineConstants>DEBUG;TRACE</DefineConstants>
+        <ErrorReport>prompt</ErrorReport>
+        <WarningLevel>4</WarningLevel>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+        <PlatformTarget>AnyCPU</PlatformTarget>
+        <DebugType>pdbonly</DebugType>
+        <Optimize>true</Optimize>
+        <OutputPath>bin\Release\</OutputPath>
+        <DefineConstants>TRACE</DefineConstants>
+        <ErrorReport>prompt</ErrorReport>
+        <WarningLevel>4</WarningLevel>
+    </PropertyGroup>
+    <ItemGroup>
+        <Reference Include="nunit.framework, Version=3.14.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL">
+          <HintPath>..\packages\NUnit.3.14.0\lib\net35\nunit.framework.dll</HintPath>
+        </Reference>
+        <Reference Include="System" />
+        <Reference Include="System.Core" />
+        <Reference Include="System.Data" />
+        <Reference Include="System.Xml" />
+    </ItemGroup>
+    <ItemGroup>
+        <Compile Include="Matrices Tests Unitaires\Tests01_NewMatrices.cs" />
+        <Compile Include="Matrices Tests Unitaires\Tests02_CopyAndModifyMatrices.cs" />
+        <Compile Include="Matrices Tests Unitaires\Tests03_IdentityMatrices.cs" />
+        <Compile Include="Matrices Tests Unitaires\Tests04_ScalarMultiplication.cs" />
+        <Compile Include="Matrices Tests Unitaires\Tests05_MatricesAddAndSubtract.cs" />
+        <Compile Include="Matrices Tests Unitaires\Tests06_MatricesMultiplication.cs" />
+        <Compile Include="Matrices Tests Unitaires\Tests07_TransposeMatrices.cs" />
+        <Compile Include="Matrices Tests Unitaires\Tests08_ElementaryOperations.cs" />
+        <Compile Include="Matrices Tests Unitaires\Tests09_AugmentedMatricesAndSplit.cs" />
+        <Compile Include="Matrices Tests Unitaires\Tests10_RowReduction.cs" />
+        <Compile Include="Matrices Tests Unitaires\Tests11_InvertMatricesUsingRowReduction.cs" />
+        <Compile Include="Matrices Tests Unitaires\Tests12_SubMatrices.cs" />
+        <Compile Include="Matrices Tests Unitaires\Tests13_Determinants.cs" />
+        <Compile Include="Matrices Tests Unitaires\Tests14_AdjugateMatrices.cs" />
+        <Compile Include="Matrices Tests Unitaires\Tests15_InvertMatricesUsingDeterminant.cs" />
+        <Compile Include="Matrices Tests Unitaires\Tests16_TransformationMatrices.cs" />
+        <Compile Include="Matrices Tests Unitaires\Tests17_TransformLocalPosition.cs" />
+        <Compile Include="Matrices Tests Unitaires\Tests18_TransformLocalRotations.cs" />
+        <Compile Include="Matrices Tests Unitaires\Tests19_TransformLocalScale.cs" />
+        <Compile Include="Matrices Tests Unitaires\Tests20_TransformLocalEverything.cs" />
+        <Compile Include="Matrices Tests Unitaires\Tests21_TransformSetParentAndCheckWorldPosition.cs" />
+        <Compile Include="Matrices Tests Unitaires\Tests22_TransformChangeWorldPosition.cs" />
+        <Compile Include="Matrices Tests Unitaires\Tests23_NewQuaternions.cs" />
+        <Compile Include="Matrices Tests Unitaires\Tests24_QuaternionsAngleAxis.cs" />
+        <Compile Include="Matrices Tests Unitaires\Tests25_QuaternionsMultiplication.cs" />
+        <Compile Include="Matrices Tests Unitaires\Tests26_QuaternionsPointRotation.cs" />
+        <Compile Include="Matrices Tests Unitaires\Tests27_QuaternionsMatrix.cs" />
+        <Compile Include="Matrices Tests Unitaires\Tests28_QuaternionsEulerConversions.cs" />
+        <Compile Include="Matrices Tests Unitaires\Tests29_TransformGetLocalRotationAsQuaternion.cs" />
+        <Compile Include="Matrices Tests Unitaires\Tests30_TransformSetLocalRotationAsQuaternion.cs" />
+        <Compile Include="Tests.cs" />
+        <Compile Include="Properties\AssemblyInfo.cs" />
+    </ItemGroup>
+    <ItemGroup>
+      <None Include="packages.config" />
+    </ItemGroup>
+    <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+    <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+      <PropertyGroup>
+        <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105.The missing file is {0}.</ErrorText>
+      </PropertyGroup>
+      <Error Condition="!Exists('..\packages\NUnit.3.14.0\build\NUnit.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\NUnit.3.14.0\build\NUnit.props'))" />
+    </Target>
+    <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+         Other similar extension points exist, see Microsoft.Common.targets.
+    <Target Name="BeforeBuild">
+    </Target>
+    <Target Name="AfterBuild">
+    </Target>
+    -->
+
+</Project>
